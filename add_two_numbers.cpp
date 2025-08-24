@@ -8,7 +8,8 @@ struct ListNode {
 };
 class Solution {
     public:
-        ListNode* addtwonumbers(ListNode* l1,ListNode* l2){
+        ListNode* addtwonumbers(ListNode* l1,ListNode* l2)
+        {
             ListNode dummy (0);
             ListNode* current =  &dummy;
             int carry =0;
